@@ -7,6 +7,8 @@ Teamcenter 2506 产品帮助的离线检索技能：203 本书（202 本有正�
 - **同事拿 zip**：解压即用，库已随包（zip 不在此仓库，由维护者单独提供），跳过「从源码建库」。
 - **从 GitHub 拿源码**：仓库**不含库**（Siemens 帮助原文有版权，不公开再分发），先按「从源码建库」生成 `data/2506/tc_help_2506.db`，再跑 `--selftest`。
 
+> 帮助原文版权归 Siemens；建出的库只在你自己的 Siemens 许可范围内使用。仓库里的代码与文档按 MIT。
+
 ## 装法
 
 把 `tc-help` 目录拷进 skills 目录（如 `C:\Users\<你>\.qoder-cn\skills\`）。要求 Python 3.9+，只用标准库；解压后约 88 MB（保留 zip 再加 24 MB）。
