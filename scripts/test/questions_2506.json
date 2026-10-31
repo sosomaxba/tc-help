@@ -1,0 +1,428 @@
+{
+ "note": "50 题盲测题库：45 道产品帮助题（答案=指定页），5 道边界题（正确行为=转其它技能/明说不在帮助里）。期望值只给判分用，测试时不得下发给答题方。",
+ "version": "2506",
+ "questions": [
+  {
+   "id": 1,
+   "kind": "positive",
+   "category": "Administration",
+   "question": "多站点做远程导入时，Oracle 的重做日志涨得特别快，有没有办法限制它的大小？",
+   "expect_href": "vbx1737253651899/les1737253654427/id986914.html",
+   "expect_title": "Limit the Oracle redo log size"
+  },
+  {
+   "id": 2,
+   "kind": "positive",
+   "category": "Administration",
+   "question": "怎么在 NX 里做日志记录和阻断？听说跟一个叫 TC_session_clearance 的首选项有关。",
+   "expect_href": "spi1737253089395/odu1737253093542/ckn1737253098164/c_session_clearance.html",
+   "expect_title": "Configuring logging and blocking in NX"
+  },
+  {
+   "id": 3,
+   "kind": "positive",
+   "category": "Administration",
+   "question": "Teamcenter 里搜索和过滤一共有哪些类型，各自适合什么场景？",
+   "expect_href": "xku1737252795850/xid1961708.html",
+   "expect_title": "Search and filter types"
+  },
+  {
+   "id": 4,
+   "kind": "positive",
+   "category": "Deployment",
+   "question": "用命令行跑 TEM 更新的时候报 Java 异常，应该怎么排查？",
+   "expect_href": "zla1737252196706/gzo1737252196848/xid1078833.html",
+   "expect_title": "Java exception errors during command-line updates"
+  },
+  {
+   "id": 5,
+   "kind": "positive",
+   "category": "Deployment",
+   "question": "部署 web 层服务器之前，怎么确定需要几台机器、什么配置？",
+   "expect_href": "ywr1737252802005/determine_req.html",
+   "expect_title": "Determining your requirements"
+  },
+  {
+   "id": 6,
+   "kind": "positive",
+   "category": "Deployment",
+   "question": "Deployment Center 里的 Applications 页签是干什么用的？",
+   "expect_href": "aab5775903536472/roj1737252203125/ycz3302306328383/xid1161161.html",
+   "expect_title": "Applications tab"
+  },
+  {
+   "id": 7,
+   "kind": "positive",
+   "category": "Process and Program Management",
+   "question": "排程甘特图的时间刻度怎么缩放？",
+   "expect_href": "ray1737239081300/xid1932629.html",
+   "expect_title": "Change Gantt zoom level",
+   "accept": [
+    "fka1737253735830/using_zoom.html"
+   ]
+  },
+  {
+   "id": 8,
+   "kind": "positive",
+   "category": "Process and Program Management",
+   "question": "在排程的表里怎么修改任务的属性？",
+   "expect_href": "fka1737253735830/euz1737253746558/qly1737253747731/update_task_properties_dialog_box.html",
+   "expect_title": "Update task properties (Properties dialog box)",
+   "accept": [
+    "fka1737253735830/euz1737253746558/qly1737253747731/update_task_properties_task_table.html"
+   ]
+  },
+  {
+   "id": 9,
+   "kind": "positive",
+   "category": "Process and Program Management",
+   "question": "Change Manager 有哪些首选项可以设置？",
+   "expect_href": "rfj1737325084603/id1352579.html",
+   "expect_title": "Setting Change Manager preferences"
+  },
+  {
+   "id": 10,
+   "kind": "positive",
+   "category": "Service Lifecycle Management",
+   "question": "在 as-built 结构的 3D 模型里怎么旋转、缩放、浏览？",
+   "expect_href": "navigating_3D_asm_model.html",
+   "expect_title": "Navigating the 3D model"
+  },
+  {
+   "id": 11,
+   "kind": "positive",
+   "category": "Service Lifecycle Management",
+   "question": "已经建好的 as-built 结构，怎么复制一份出来？",
+   "expect_href": "jzk1737394898572/id1097756.html",
+   "expect_title": "Duplicate an as-built structure"
+  },
+  {
+   "id": 12,
+   "kind": "positive",
+   "category": "Systems Engineering",
+   "question": "怎么把用户加到 MDO 通知管理组里？",
+   "expect_href": "zwf1737325390809/ptb1737325392391/xid1065240.html",
+   "expect_title": "Add users to the MDO Notification Administration group"
+  },
+  {
+   "id": 13,
+   "kind": "positive",
+   "category": "Systems Engineering",
+   "question": "导出 Word 时想要一个不随数据变化的固定快照，该用哪个输出模式？",
+   "expect_href": "fkd1737252353950/ddd1737252354217/xid461777.html",
+   "expect_title": "Capturing a fixed data record in Word"
+  },
+  {
+   "id": 14,
+   "kind": "positive",
+   "category": "BOM Management",
+   "question": "有多个版次的时候，2D 快照怎么替换？",
+   "expect_href": "ugo1737325933647/hbs1737325747887/zrb1737325753981/twoD_replace_snapshot.html",
+   "expect_title": "Replace a 2D snapshot"
+  },
+  {
+   "id": 15,
+   "kind": "positive",
+   "category": "Document and Content Management",
+   "question": "怎么导入对象模板？把需求管理模板导出成 PLMXML 要注意什么？",
+   "expect_href": "lad1737253498455/dcn1737253499577/obj_export_temp_import.html",
+   "expect_title": "Import an object template"
+  },
+  {
+   "id": 16,
+   "kind": "positive",
+   "category": "Document and Content Management",
+   "question": "怎么把 S1000D 数据模块导入到指定的 SNS 下面？",
+   "expect_href": "qub1737238642580/xid1977763.html",
+   "expect_title": "Import S1000D data modules against an SNS"
+  },
+  {
+   "id": 17,
+   "kind": "positive",
+   "category": "ECAD Management",
+   "question": "EDA 连接器里怎么取消签出，把数据集的锁释放掉？",
+   "expect_href": "btq1737239441207/xid1973707.html",
+   "expect_title": "Cancel Check‑Out"
+  },
+  {
+   "id": 18,
+   "kind": "positive",
+   "category": "ECAD Management",
+   "question": "非西门子的 ECAD 工具怎么接入 Teamcenter 的 EDA Gateway？",
+   "expect_href": "xid1977994.html",
+   "expect_title": "Setting up EDA Gateway for (Non-Siemens EDA) ECAD applications"
+  },
+  {
+   "id": 19,
+   "kind": "positive",
+   "category": "Manufacturing",
+   "question": "在工艺 BOP 里怎么修改工装需求（tool requirement）？",
+   "expect_href": "udh1737325894877/ize1737325905019/xid475931.html",
+   "expect_title": "Edit a tool requirement"
+  },
+  {
+   "id": 20,
+   "kind": "positive",
+   "category": "Manufacturing",
+   "question": "当前单位是米制时，怎么搜到英制单位的 ICO？",
+   "expect_href": "mnf1737326136243/alm1737326137945/kes1737326138045/id1250357.html",
+   "expect_title": "Searching in multi-unit classes"
+  },
+  {
+   "id": 21,
+   "kind": "positive",
+   "category": "Manufacturing",
+   "question": "怎么用 Paste Duplicate 快速克隆一套结构？",
+   "expect_href": "idp1737325710133/yic1737325745574/xid841248.html",
+   "expect_title": "Clone using Paste Duplicate"
+  },
+  {
+   "id": 22,
+   "kind": "positive",
+   "category": "Product Configuration",
+   "question": "产品配置器的默认规则属性在哪个首选项里设置？",
+   "expect_href": "alc1737343732779/ylz1737343737349/nwu1737343737700/yzr1738046553901.html",
+   "expect_title": "Setting preferences for default rules"
+  },
+  {
+   "id": 23,
+   "kind": "positive",
+   "category": "Product Configuration",
+   "question": "配置器里的约束在哪里创建？",
+   "expect_href": "rwz1737238987651/xid2134685.html",
+   "expect_title": "Create constraints"
+  },
+  {
+   "id": 24,
+   "kind": "positive",
+   "category": "Simulation Management",
+   "question": "仿真过程与数据管理（SPDM）怎么用 Deployment Center 安装？",
+   "expect_href": "dbv1737343475383/xid2290364.html",
+   "expect_title": "Install Simulation Process and Data Management using Deployment Center"
+  },
+  {
+   "id": 25,
+   "kind": "positive",
+   "category": "Simulation Management",
+   "question": "仿真仪表板（simulation dashboard）能看到什么？",
+   "expect_href": "yim1737343473186/xid1684742.html",
+   "expect_title": "Why use the simulation dashboard?"
+  },
+  {
+   "id": 26,
+   "kind": "positive",
+   "category": "Simulation Management",
+   "question": "从 Active Workspace 启动仿真工具时报 All bootstrap servers are unavailable，怎么处理？",
+   "expect_href": "fsg1737343498491/xid2059174.html",
+   "expect_title": "All bootstrap servers are unavailable error during tool launch from Active Workspace"
+  },
+  {
+   "id": 27,
+   "kind": "positive",
+   "category": "Supplier Management",
+   "question": "怎么把文件安全地分享给供应商？",
+   "expect_href": "xid2302608.html",
+   "expect_title": "Share files with suppliers"
+  },
+  {
+   "id": 28,
+   "kind": "positive",
+   "category": "Supplier Management",
+   "question": "怎么给供应商建一个联系人？",
+   "expect_href": "lrt1737325703821/fiw1737325704116/create_company_contact.html",
+   "expect_title": "Create a vendor contact"
+  },
+  {
+   "id": 29,
+   "kind": "positive",
+   "category": "Classification",
+   "question": "分类的映射表里，怎么只映射一部分属性？",
+   "expect_href": "aqy1737252891254/kfx1737252912953/automaticmapping.html",
+   "expect_title": "Selectively map attributes"
+  },
+  {
+   "id": 30,
+   "kind": "positive",
+   "category": "Classification",
+   "question": "引导式零部件搜索（GCS）是做什么的，怎么配？",
+   "expect_href": "aqy1737252891254/rpb1737252918446/ggs1737252918565/configuringgcs.html",
+   "expect_title": "Guided component search overview"
+  },
+  {
+   "id": 31,
+   "kind": "positive",
+   "category": "Customization",
+   "question": "写服务端扩展时，内存分配和释放有什么规矩？",
+   "expect_href": "ehx1737343056573/qof1737343057551/memorymgt.html",
+   "expect_title": "Memory management"
+  },
+  {
+   "id": 32,
+   "kind": "positive",
+   "category": "Customization",
+   "question": "SWF 里 aw-dialog 组件有哪些可配置项（DialogOptions）？",
+   "expect_href": "swf/ref_type_dialogoptions.html",
+   "expect_title": "DialogOptions"
+  },
+  {
+   "id": 33,
+   "kind": "positive",
+   "category": "Fundamentals",
+   "question": "搜索结果出来以后，怎么调整显示数量和翻页？",
+   "expect_href": "nev1737252417499/egn1737252419414/search_results_load.html",
+   "expect_title": "Navigate the search results and adjust the display setting"
+  },
+  {
+   "id": 34,
+   "kind": "positive",
+   "category": "Fundamentals",
+   "question": "流程里有一个任务被暂停了，怎么把它启动起来？",
+   "expect_href": "cpe1737252458344/rvw1737252468277/xid348216.html",
+   "expect_title": "Start a paused task",
+   "accept": [
+    "yaq1737239310356/ntd1737239310455/xid1927415.html",
+    "bnu1737253799595/resume_task.html",
+    "cpe1737252458344/rvw1737252468277/wf_task_resume.html"
+   ]
+  },
+  {
+   "id": 35,
+   "kind": "positive",
+   "category": "Fundamentals",
+   "question": "怎么把自己常用的链接加到富客户端的 My Links 里？",
+   "expect_href": "wjc1737252385331/fcf1737252396172/kxr1737252396673/xwh1737252398084/add_link.html",
+   "expect_title": "Add a link to your list of links in the rich client"
+  },
+  {
+   "id": 36,
+   "kind": "positive",
+   "category": "Industry Solutions",
+   "question": "消费品（CPG）行业要管品牌产品，数据模型需要做哪些更新？",
+   "expect_href": "xid1689738.html",
+   "expect_title": "Update the Teamcenter data model to manage CPG Products"
+  },
+  {
+   "id": 37,
+   "kind": "positive",
+   "category": "Industry Solutions",
+   "question": "鞋服行业不用系统自带分类时，怎么给关键 LOV 指定尺寸？",
+   "expect_href": "vox1737239462431/xid1567902.html",
+   "expect_title": "Specify dimensions for new or modified key LOVs"
+  },
+  {
+   "id": 38,
+   "kind": "positive",
+   "category": "Quality",
+   "question": "FMEA 树里怎么用过滤器调整显示的层次结构？",
+   "expect_href": "vnn1737238860493/rtq1737238862141/xid2276571.html",
+   "expect_title": "Modify the FMEA structure using filters"
+  },
+  {
+   "id": 39,
+   "kind": "positive",
+   "category": "Quality",
+   "question": "质量审核里怎么把检查单分配给供应商？",
+   "expect_href": "qev1737239062227/xid2246411.html",
+   "expect_title": "Assign a checklist to a vendor"
+  },
+  {
+   "id": 40,
+   "kind": "positive",
+   "category": "Substance Compliance",
+   "question": "物质合规里，某种物质的合规状态怎么手动覆盖？",
+   "expect_href": "nrn1737239245759/xid1417311.html",
+   "expect_title": "Override an existing status"
+  },
+  {
+   "id": 41,
+   "kind": "positive",
+   "category": "Substance Compliance",
+   "question": "豁免条款的文本怎么做多语言？",
+   "expect_href": "vgc1737239251599/xid434035.html",
+   "expect_title": "Localize exemption text"
+  },
+  {
+   "id": 42,
+   "kind": "positive",
+   "category": "Visualization",
+   "question": "3D 视图里加了一堆测量和剖切，怎么一次性清掉？",
+   "expect_href": "xid1900363.html",
+   "expect_title": "Clear all added content from the current view"
+  },
+  {
+   "id": 43,
+   "kind": "positive",
+   "category": "Visualization",
+   "question": "怎么给几何体新建材质来改颜色？",
+   "expect_href": "wmf1737344076523/oum1737224079920/a3D_Materials_p_create_new_materials.html",
+   "expect_title": "Create new materials"
+  },
+  {
+   "id": 44,
+   "kind": "positive",
+   "category": "Release Notes",
+   "question": "2506 在易用性上有哪些新改进？",
+   "expect_href": "bga1737252655584/imt1737252668330/uhq2701197984532.html",
+   "expect_title": "Usability enhancements",
+   "accept": [
+    "launch_page.html"
+   ]
+  },
+  {
+   "id": 45,
+   "kind": "positive",
+   "category": "Release Notes",
+   "question": "产品配置对象怎么停用（discontinue）？",
+   "expect_href": "zhv1737252620846/udf5646129534118.html",
+   "expect_title": "Discontinue product configurator objects",
+   "accept": [
+    "alc1737343732779/xid1761020.html"
+   ]
+  },
+  {
+   "id": 46,
+   "kind": "boundary",
+   "category": "API 契约",
+   "question": "ITK 里 AOM_ask_value_string 的函数签名、参数和返回码分别是什么？",
+   "expect_href": null,
+   "expect_title": null,
+   "expect_behavior": "说明这是 API 契约问题、不在产品帮助里，转各栈自己的符号库"
+  },
+  {
+   "id": 47,
+   "kind": "boundary",
+   "category": "站点实况",
+   "question": "我们站点上 TC_relation_required_on_export 这个首选项现在配的是多少？",
+   "expect_href": null,
+   "expect_title": null,
+   "expect_behavior": "说明帮助里只有含义、查不到站点现值，转 tc-biz"
+  },
+  {
+   "id": 48,
+   "kind": "boundary",
+   "category": "开发",
+   "question": "用 SOA 强绑定 Java 调 createItems 服务，代码怎么写？",
+   "expect_href": null,
+   "expect_title": null,
+   "expect_behavior": "说明这是开发问题、转 tc-soa-developer（契约在库内）"
+  },
+  {
+   "id": 49,
+   "kind": "boundary",
+   "category": "无关",
+   "question": "公司财务部去年的采购预算表放在哪个目录？",
+   "expect_href": null,
+   "expect_title": null,
+   "expect_behavior": "说明与 Teamcenter 产品帮助无关，不应硬给一条文档页"
+  },
+  {
+   "id": 50,
+   "kind": "boundary",
+   "category": "版本差异",
+   "question": "这个对象归档功能在 Teamcenter 14.2 里还有吗？跟 2506 有什么差别？",
+   "expect_href": null,
+   "expect_title": null,
+   "expect_behavior": "说明本库只有 2506、跨版本差异不在本库"
+  }
+ ]
+}

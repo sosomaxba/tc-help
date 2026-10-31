@@ -1,0 +1,270 @@
+[
+ {
+  "id": 1,
+  "terms_style": "user",
+  "queries": ["remote import redo log size", "Oracle redo log"],
+  "notes": "用户说的是「重做日志涨得快」，官方词是 redo log。"
+ },
+ {
+  "id": 2,
+  "terms_style": "official",
+  "queries": ["TC_session_clearance", "logging blocking NX"],
+  "notes": "首选项标识符整体查。"
+ },
+ {
+  "id": 3,
+  "terms_style": "official",
+  "queries": ["search filter types", "search types overview"]
+ },
+ {
+  "id": 4,
+  "terms_style": "user",
+  "queries": ["command line update Java exception", "Java exception TEM"],
+  "notes": "TEM 是俗称，帮助里叫 Teamcenter Entitlement Manager / command-line updates。"
+ },
+ {
+  "id": 5,
+  "terms_style": "user",
+  "queries": ["web tier requirements", "hardware sizing web server"],
+  "notes": "「几台机器什么配置」= sizing，官方页是 Determining your requirements。"
+ },
+ {
+  "id": 6,
+  "terms_style": "official",
+  "queries": ["Applications tab", "Deployment Center Applications tab"],
+  "notes": "两个词的页标题极通用，是排序能力的压力题。"
+ },
+ {
+  "id": 7,
+  "terms_style": "official",
+  "queries": ["Gantt zoom", "schedule Gantt time scale"]
+ },
+ {
+  "id": 8,
+  "terms_style": "official",
+  "queries": ["update task properties schedule", "task properties table"]
+ },
+ {
+  "id": 9,
+  "terms_style": "official",
+  "queries": ["Change Manager preferences", "change manager setting preferences"]
+ },
+ {
+  "id": 10,
+  "terms_style": "user",
+  "queries": ["navigate 3D model as-built", "as-built structure viewer rotate zoom"]
+ },
+ {
+  "id": 11,
+  "terms_style": "user",
+  "queries": ["copy as-built structure", "duplicate as-built structure"],
+  "notes": "用户说「复制一份」，官方动词是 Duplicate —— 同义词压力题。"
+ },
+ {
+  "id": 12,
+  "terms_style": "official",
+  "queries": ["MDO Notification Administration group", "MDO notification add users"]
+ },
+ {
+  "id": 13,
+  "terms_style": "official",
+  "queries": ["Word fixed data record", "Word output mode snapshot"]
+ },
+ {
+  "id": 14,
+  "terms_style": "official",
+  "queries": ["replace 2D snapshot", "2D snapshot revision"]
+ },
+ {
+  "id": 15,
+  "terms_style": "official",
+  "queries": ["import object template", "object template PLMXML export"]
+ },
+ {
+  "id": 16,
+  "terms_style": "official",
+  "queries": ["S1000D data modules SNS", "import S1000D SNS"]
+ },
+ {
+  "id": 17,
+  "terms_style": "user",
+  "queries": ["EDA cancel checkout", "Cancel Check-Out dataset"],
+  "notes": "中文「取消签出/释放锁」，官方页标题是 Cancel Check-Out。"
+ },
+ {
+  "id": 18,
+  "terms_style": "official",
+  "queries": ["EDA Gateway ECAD", "setting up EDA Gateway applications"]
+ },
+ {
+  "id": 19,
+  "terms_style": "user",
+  "queries": ["tool requirement edit", "edit tool requirement operation"],
+  "notes": "「修改工装需求」= Edit a tool requirement，词序打乱考排序。"
+ },
+ {
+  "id": 20,
+  "terms_style": "official",
+  "queries": ["multi-unit class search", "searching in multi-unit classes"]
+ },
+ {
+  "id": 21,
+  "terms_style": "official",
+  "queries": ["Paste Duplicate", "clone structure Paste Duplicate"]
+ },
+ {
+  "id": 22,
+  "terms_style": "official",
+  "queries": ["preferences default rules", "rule attribute preference configurator"]
+ },
+ {
+  "id": 23,
+  "terms_style": "official",
+  "queries": ["create constraints", "constraint creation configurator"],
+  "notes": "两个词且全库通用，排序压力题。"
+ },
+ {
+  "id": 24,
+  "terms_style": "user",
+  "queries": ["install SPDM Deployment Center", "Install Simulation Process and Data Management"],
+  "notes": "用户说缩写 SPDM，官方页写全称 —— 缩写压力题。"
+ },
+ {
+  "id": 25,
+  "terms_style": "official",
+  "queries": ["simulation dashboard", "simulation dashboard overview"]
+ },
+ {
+  "id": 26,
+  "terms_style": "official",
+  "queries": ["bootstrap servers unavailable", "All bootstrap servers are unavailable"]
+ },
+ {
+  "id": 27,
+  "terms_style": "official",
+  "queries": ["share files suppliers", "secure file sharing supplier"]
+ },
+ {
+  "id": 28,
+  "terms_style": "user",
+  "queries": ["create supplier contact", "create vendor contact"],
+  "notes": "中文「供应商」官方两处都有：supplier / vendor —— 同义词压力题。"
+ },
+ {
+  "id": 29,
+  "terms_style": "official",
+  "queries": ["selectively map attributes", "classification mapping partial attributes"]
+ },
+ {
+  "id": 30,
+  "terms_style": "official",
+  "queries": ["guided component search", "GCS configuration"]
+ },
+ {
+  "id": 31,
+  "terms_style": "user",
+  "queries": ["memory management ITK", "allocating freeing memory server"],
+  "notes": "ITK 是俗称，帮助里这本书叫 Customization/服务端扩展。"
+ },
+ {
+  "id": 32,
+  "terms_style": "official",
+  "queries": ["DialogOptions", "aw-dialog options"]
+ },
+ {
+  "id": 33,
+  "terms_style": "user",
+  "queries": ["search results display setting", "navigate search results pagination"]
+ },
+ {
+  "id": 34,
+  "terms_style": "official",
+  "queries": ["start paused task", "resume workflow task"]
+ },
+ {
+  "id": 35,
+  "terms_style": "official",
+  "queries": ["My Links add link", "add link rich client list"]
+ },
+ {
+  "id": 36,
+  "terms_style": "official",
+  "queries": ["CPG products data model", "manage CPG products"]
+ },
+ {
+  "id": 37,
+  "terms_style": "user",
+  "queries": ["footwear LOV dimensions", "specify dimensions key LOVs"]
+ },
+ {
+  "id": 38,
+  "terms_style": "official",
+  "queries": ["FMEA structure filters", "modify FMEA structure"]
+ },
+ {
+  "id": 39,
+  "terms_style": "official",
+  "queries": ["assign checklist vendor", "audit checklist supplier"]
+ },
+ {
+  "id": 40,
+  "terms_style": "user",
+  "queries": ["substance compliance override status", "override an existing status"]
+ },
+ {
+  "id": 41,
+  "terms_style": "official",
+  "queries": ["localize exemption text", "translate exemption"]
+ },
+ {
+  "id": 42,
+  "terms_style": "user",
+  "queries": ["clear added content view", "remove measurements section planes view"]
+ },
+ {
+  "id": 43,
+  "terms_style": "official",
+  "queries": ["create new materials", "geometry material color"],
+  "notes": "三个通用词，排序压力题。"
+ },
+ {
+  "id": 44,
+  "terms_style": "official",
+  "queries": ["usability enhancements", "ease of use new features"]
+ },
+ {
+  "id": 45,
+  "terms_style": "official",
+  "queries": ["discontinue product configurator", "discontinue configuration objects"]
+ },
+ {
+  "id": 46,
+  "terms_style": "boundary",
+  "queries": ["AOM_ask_value_string"],
+  "notes": "API 契约题：看工具会不会回一个似是而非的页把答题方带走。"
+ },
+ {
+  "id": 47,
+  "terms_style": "boundary",
+  "queries": ["TC_relation_required_on_export"],
+  "notes": "站点现值题：帮助里最多有含义，没有现值。"
+ },
+ {
+  "id": 48,
+  "terms_style": "boundary",
+  "queries": ["createItems service"],
+  "notes": "SOA 开发题：契约在 tc-soa-developer 的契约库内，代码同栈。"
+ },
+ {
+  "id": 49,
+  "terms_style": "boundary",
+  "queries": ["采购预算表 目录"],
+  "notes": "与 Teamcenter 无关：工具必须 rc=2 响亮拒绝中文，不能给页。"
+ },
+ {
+  "id": 50,
+  "terms_style": "boundary",
+  "queries": ["archive object 14.2", "object archive"],
+  "notes": "跨版本题：本库只有 2506，工具会回 2506 的页，答题方必须声明版本口径。"
+ }
+]
